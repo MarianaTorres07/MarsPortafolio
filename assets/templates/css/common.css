@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /* Importar iconos de Bootstrap */
+/* Variables */
+:root
+{
+    /* colores */
+    --black-color: #010400;
+    --grey-color: #30332E;
+    --grey-light-color:#adadad;
+    --white-color: #FFFBFC;
+    --primary-color: #880828;
+    --secondary-color: #FBAF00;
+    --third-color: #62BBC1;
+    --primary-light-color: #ffa2da;
+    --secondary-light-color: #ffeaba;
+    --third-light-color: #bbf1f5;
+    --background-score: #01040066;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: var(--primary-color); /* Color de fondo */
+    height: 80px; /* Altura */
+}
+
+.navbarOptions
+{
+    justify-content: center; /* Alinear al centro las opciones */
+}
+
+.navbarOptions .nav-link,
+.navbarOptions .nav-link.active  
+{
+    color: var(--white-color) !important; /* Color de letra */
+    font-size: 1.2rem; /* Tamaño de letra */
+    margin: 0 10px; /* Margen */
+}
+
+.navbar-brandName {
+    letter-spacing: 2.5px; /* Adjust spacing as needed */
+    color: var(--white-color) !important; /* Color de letra */
+}
+
+.linkedinicon,
+.githubicon {
+    font-size: 30px;  /* Adjust size */
+    color: #0077b5;   /* LinkedIn blue */
+}
+
+.linkedinicon:hover,
+.githubicon:hover {
+    color: #005582;   /* Darker blue on hover */
+}
+
+
+
+/* Asignar font Fredoka a todos los elementos */
+body
+{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Estilos para el footer */
+footer
+{
+    text-align: left;
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--grey-color);   
+    padding-top: auto;
+}
+
+.redes
+{
+    font-size: 2rem;
+}
+
+/* Listas enfooter */
+footer ul
+{
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+/* anchor */
+a
+{
+    color: inherit;
+}
+
+a:link
+{
+    text-decoration-line: none;
+}
+
+footer a:hover
+{
+    color: var(--grey-light-color);
+    transition-duration: 200ms;
+}

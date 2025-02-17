@@ -1,0 +1,47 @@
+/*The main container*/
+.mainContainer{
+    background-color: var(--black-color);
+}
+/*The first half of the column*/
+.firstRowInfo{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    color: var(--white-color);
+    font-size: 50px;
+}
+
+.nameInfo{
+    color: var(--secondary-color);
+    margin-left: 5px;
+}
+
+.thirdRowInfo{
+    display: inline-block; /*Neededtoapplytransform*/
+    transform: rotate(5deg); /*Adjustthedegreeasneeded*/
+    color: var(--primary-light-color);
+    margin-left: 95px;
+}
+/*The second half of the column, the image*/
+.interactiveInfo{
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+.img-fluid{
+    width: 350px;
+}
+
+h1{
+    line-height: 1.2;
+    font-size: var(--step-6);
+}
